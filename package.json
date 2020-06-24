@@ -1,0 +1,27 @@
+{
+  "name": "novicell-build",
+  "version": "0.0.1",
+  "description": "🏗 Just the build tool from novicell-frontend and nothing else",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novicell/novicell-build.git"
+  },
+  "keywords": [
+    "novicell",
+    "build"
+  ],
+  "author": "Danni Larsen <dla@novicell.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Novicell/novicell-build/issues"
+  },
+  "homepage": "https://github.com/Novicell/novicell-build#readme",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {}
+}
