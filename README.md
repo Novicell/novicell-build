@@ -132,6 +132,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/jhavmoeller"><img src="https://avatars2.githubusercontent.com/u/16593791?v=4" width="100px;" alt=""/><br /><sub><b>Jonas Havmøller</b></sub></a><br /><a href="https://github.com/Novicell/novicell-build/pulls?q=is%3Apr+reviewed-by%3Ajhavmoeller" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://www.novicell.dk"><img src="https://avatars1.githubusercontent.com/u/1523780?v=4" width="100px;" alt=""/><br /><sub><b>Danni Larsen</b></sub></a><br /><a href="https://github.com/Novicell/novicell-build/commits?author=Dan9boi" title="Code">💻</a></td>
   </tr>
 </table>
 
