@@ -1,0 +1,23 @@
+# ignore folders
+node_modules
+build
+.cache
+dist
+src
+
+# ignore files
+*.log
+.idea
+.vscode
+web.config
+npm-debug.log.*
+*.orig
+
+# ignore anything related to favicons
+/*.png
+/favicon.ico
+/*manifest*
+/*yandex*
+/*browserconfig.xml
+/index.html
+

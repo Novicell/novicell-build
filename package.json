@@ -2,9 +2,13 @@
   "name": "novicell-build",
   "version": "0.0.1",
   "description": "🏗 Just the build tool from novicell-frontend and nothing else",
-  "main": "bin/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "hello"
+    "styles": "styles"
+  },
+  "bin": {
+    "styles": "./config/styles/styles.js",
+    "createComponent": "./config/createComponent/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +24,50 @@
     "url": "https://github.com/Novicell/novicell-build/issues"
   },
   "homepage": "https://github.com/Novicell/novicell-build#readme",
-  "bin": {
-    "hello": "./bin/index.js"
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "@frctl/fractal": "^1.2.1",
+    "babel-loader": "8.0.5",
+    "cli-real-favicon": "0.0.8",
+    "copyfiles": "2.1.0",
+    "cross-env": "5.2.0",
+    "css-loader": "2.1.1",
+    "cssnano": "4.1.10",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-loader": "2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "glob": "7.1.3",
+    "glob-watcher": "5.0.3",
+    "handlebars-layouts": "3.1.4",
+    "imagemin": "6.1.0",
+    "mini-css-extract-plugin": "0.5.0",
+    "npm-run-all": "4.1.5",
+    "postcss": "^7.0.32",
+    "postcss-cli": "6.1.2",
+    "postcss-import": "12.0.1",
+    "postcss-loader": "3.0.0",
+    "postcss-nested": "4.1.2",
+    "postcss-preset-env": "6.6.0",
+    "postcss-reporter": "6.0.1",
+    "style-loader": "0.23.1",
+    "stylelint": "9.10.1",
+    "stylelint-config-standard": "18.2.0",
+    "svg-sprite": "1.5.0",
+    "uglify-js": "3.5.3",
+    "uglifyjs-webpack-plugin": "2.1.2",
+    "vue-loader": "15.7.0",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "4.29.6",
+    "webpack-bundle-analyzer": "3.3.2",
+    "webpack-cli": "3.3.0",
+    "yargs": "^15.3.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "fractal": {
+    "main": "config/fractal.js"
+  }
 }
