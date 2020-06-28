@@ -5,13 +5,13 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
-      {
-      "login": "Dan9boi",
-      "name": "Danni Larsen",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/1523780?v=4",
-      "profile": "http://www.novicell.dk",
+    {
+      "login": "hesselberg",
+      "name": "Lars Hesselberg",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1683386?v=4",
+      "profile": "https://larshesselberg.dk",
       "contributions": [
-        "code"
+        "ideas"
       ]
     },
     {
@@ -22,7 +22,16 @@
       "contributions": [
         "review"
       ]
-    }
+    },
+    {
+      "login": "Dan9boi",
+      "name": "Danni Larsen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1523780?v=4",
+      "profile": "http://www.novicell.dk",
+      "contributions": [
+        "code"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "novicell-build",
